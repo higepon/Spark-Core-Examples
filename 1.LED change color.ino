@@ -1,5 +1,6 @@
 // What is this?
 //   Change color of the RGB LED periodically.
+//   See http://d.hatena.ne.jp/higepon/20140908/1410148835
 //
 int led = D0;  // The RGB LED
 
