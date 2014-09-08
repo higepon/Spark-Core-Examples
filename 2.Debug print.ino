@@ -2,7 +2,7 @@
 //   See http://d.hatena.ne.jp/higepon/20140908/1410150226
 
 void setup() {
-  Serial.begin(9600); // open serial over US
+  Serial.begin(9600); // open serial over USB
 }
 
 void loop() {
