@@ -5,3 +5,4 @@ Spark Core Examples step by step
 - [4. Control LED blink speed via Internet](http://d.hatena.ne.jp/higepon/20140909/1410229118)
 - [5. Photo Resistor](http://d.hatena.ne.jp/higepon/20140910/1410324317)
 - [6. Turn on LED when it's dark](http://d.hatena.ne.jp/higepon/20140910/1410353300)
+- [7. Emacs + Spark](http://d.hatena.ne.jp/higepon/20140912/1410528195 http://d.hatena.ne.jp/higepon/20140912)
