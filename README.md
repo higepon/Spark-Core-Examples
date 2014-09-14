@@ -6,4 +6,4 @@ Spark Core Examples step by step
 - [5. Photo Resistor](http://d.hatena.ne.jp/higepon/20140910/1410324317)
 - [6. Turn on LED when it's dark](http://d.hatena.ne.jp/higepon/20140910/1410353300)
 - [7. Emacs + Spark](http://d.hatena.ne.jp/higepon/20140912/1410528195 http://d.hatena.ne.jp/higepon/20140912)
-- [8. Send email when someone turns on light(http://d.hatena.ne.jp/higepon/20140915/1410733266)
+- [8. Send email when someone turns on light](http://d.hatena.ne.jp/higepon/20140915/1410733266)
