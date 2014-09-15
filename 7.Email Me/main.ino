@@ -1,4 +1,5 @@
 // Send email example
+//   http://d.hatena.ne.jp/higepon/20140915/1410733266
 
 #include <stdarg.h>
 
@@ -22,6 +23,8 @@ void setup() {
 
 void loop() {
   int currentVoltage = analogRead(A0);
+
+  // When it becomes brighter, we'd trigger email
   bool shouldTriggerEmail = (lastVoltage - currentVoltage) > 100;
   
   Serial_printf("last=%d current=%d", lastVoltage, currentVoltage);
