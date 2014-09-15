@@ -7,50 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B30F88A019C69BD8001AB5C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B30F889F19C69BD8001AB5C5 /* main.m */; };
-		B30F88A319C69BD8001AB5C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B30F88A219C69BD8001AB5C5 /* AppDelegate.m */; };
-		B30F88A619C69BD8001AB5C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30F88A519C69BD8001AB5C5 /* ViewController.m */; };
-		B30F88A919C69BD8001AB5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30F88A719C69BD8001AB5C5 /* Main.storyboard */; };
-		B30F88AB19C69BD8001AB5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30F88AA19C69BD8001AB5C5 /* Images.xcassets */; };
-		B30F88AE19C69BD8001AB5C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30F88AC19C69BD8001AB5C5 /* LaunchScreen.xib */; };
-		B30F88BA19C69BD8001AB5C5 /* TemperatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30F88B919C69BD8001AB5C5 /* TemperatureTests.m */; };
+		B30F88D219C69D6A001AB5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F88D119C69D6A001AB5C5 /* AppDelegate.swift */; };
+		B30F88D419C69D6A001AB5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F88D319C69D6A001AB5C5 /* ViewController.swift */; };
+		B30F88D719C69D6A001AB5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30F88D519C69D6A001AB5C5 /* Main.storyboard */; };
+		B30F88D919C69D6A001AB5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30F88D819C69D6A001AB5C5 /* Images.xcassets */; };
+		B30F88DC19C69D6A001AB5C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30F88DA19C69D6A001AB5C5 /* LaunchScreen.xib */; };
+		B30F88E819C69D6B001AB5C5 /* TemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F88E719C69D6B001AB5C5 /* TemperatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B30F88B419C69BD8001AB5C5 /* PBXContainerItemProxy */ = {
+		B30F88E219C69D6B001AB5C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B30F889219C69BD8001AB5C5 /* Project object */;
+			containerPortal = B30F88C419C69D6A001AB5C5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B30F889919C69BD8001AB5C5;
+			remoteGlobalIDString = B30F88CB19C69D6A001AB5C5;
 			remoteInfo = Temperature;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B30F889A19C69BD8001AB5C5 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30F889E19C69BD8001AB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B30F889F19C69BD8001AB5C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B30F88A119C69BD8001AB5C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B30F88A219C69BD8001AB5C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B30F88A419C69BD8001AB5C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B30F88A519C69BD8001AB5C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B30F88A819C69BD8001AB5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B30F88AA19C69BD8001AB5C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B30F88AD19C69BD8001AB5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B30F88B319C69BD8001AB5C5 /* TemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30F88B819C69BD8001AB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B30F88B919C69BD8001AB5C5 /* TemperatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureTests.m; sourceTree = "<group>"; };
+		B30F88CC19C69D6A001AB5C5 /* Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30F88D019C69D6A001AB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30F88D119C69D6A001AB5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B30F88D319C69D6A001AB5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B30F88D619C69D6A001AB5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B30F88D819C69D6A001AB5C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B30F88DB19C69D6A001AB5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B30F88E119C69D6A001AB5C5 /* TemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30F88E619C69D6B001AB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30F88E719C69D6B001AB5C5 /* TemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B30F889719C69BD8001AB5C5 /* Frameworks */ = {
+		B30F88C919C69D6A001AB5C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30F88B019C69BD8001AB5C5 /* Frameworks */ = {
+		B30F88DE19C69D6A001AB5C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B30F889119C69BD8001AB5C5 = {
+		B30F88C319C69D6A001AB5C5 = {
 			isa = PBXGroup;
 			children = (
-				B30F889C19C69BD8001AB5C5 /* Temperature */,
-				B30F88B619C69BD8001AB5C5 /* TemperatureTests */,
-				B30F889B19C69BD8001AB5C5 /* Products */,
+				B30F88CE19C69D6A001AB5C5 /* Temperature */,
+				B30F88E419C69D6B001AB5C5 /* TemperatureTests */,
+				B30F88CD19C69D6A001AB5C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B30F889B19C69BD8001AB5C5 /* Products */ = {
+		B30F88CD19C69D6A001AB5C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B30F889A19C69BD8001AB5C5 /* Temperature.app */,
-				B30F88B319C69BD8001AB5C5 /* TemperatureTests.xctest */,
+				B30F88CC19C69D6A001AB5C5 /* Temperature.app */,
+				B30F88E119C69D6A001AB5C5 /* TemperatureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B30F889C19C69BD8001AB5C5 /* Temperature */ = {
+		B30F88CE19C69D6A001AB5C5 /* Temperature */ = {
 			isa = PBXGroup;
 			children = (
-				B30F88A119C69BD8001AB5C5 /* AppDelegate.h */,
-				B30F88A219C69BD8001AB5C5 /* AppDelegate.m */,
-				B30F88A419C69BD8001AB5C5 /* ViewController.h */,
-				B30F88A519C69BD8001AB5C5 /* ViewController.m */,
-				B30F88A719C69BD8001AB5C5 /* Main.storyboard */,
-				B30F88AA19C69BD8001AB5C5 /* Images.xcassets */,
-				B30F88AC19C69BD8001AB5C5 /* LaunchScreen.xib */,
-				B30F889D19C69BD8001AB5C5 /* Supporting Files */,
+				B30F88D119C69D6A001AB5C5 /* AppDelegate.swift */,
+				B30F88D319C69D6A001AB5C5 /* ViewController.swift */,
+				B30F88D519C69D6A001AB5C5 /* Main.storyboard */,
+				B30F88D819C69D6A001AB5C5 /* Images.xcassets */,
+				B30F88DA19C69D6A001AB5C5 /* LaunchScreen.xib */,
+				B30F88CF19C69D6A001AB5C5 /* Supporting Files */,
 			);
 			path = Temperature;
 			sourceTree = "<group>";
 		};
-		B30F889D19C69BD8001AB5C5 /* Supporting Files */ = {
+		B30F88CF19C69D6A001AB5C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B30F889E19C69BD8001AB5C5 /* Info.plist */,
-				B30F889F19C69BD8001AB5C5 /* main.m */,
+				B30F88D019C69D6A001AB5C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B30F88B619C69BD8001AB5C5 /* TemperatureTests */ = {
+		B30F88E419C69D6B001AB5C5 /* TemperatureTests */ = {
 			isa = PBXGroup;
 			children = (
-				B30F88B919C69BD8001AB5C5 /* TemperatureTests.m */,
-				B30F88B719C69BD8001AB5C5 /* Supporting Files */,
+				B30F88E719C69D6B001AB5C5 /* TemperatureTests.swift */,
+				B30F88E519C69D6B001AB5C5 /* Supporting Files */,
 			);
 			path = TemperatureTests;
 			sourceTree = "<group>";
 		};
-		B30F88B719C69BD8001AB5C5 /* Supporting Files */ = {
+		B30F88E519C69D6B001AB5C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B30F88B819C69BD8001AB5C5 /* Info.plist */,
+				B30F88E619C69D6B001AB5C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B30F889919C69BD8001AB5C5 /* Temperature */ = {
+		B30F88CB19C69D6A001AB5C5 /* Temperature */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B30F88BD19C69BD8001AB5C5 /* Build configuration list for PBXNativeTarget "Temperature" */;
+			buildConfigurationList = B30F88EB19C69D6B001AB5C5 /* Build configuration list for PBXNativeTarget "Temperature" */;
 			buildPhases = (
-				B30F889619C69BD8001AB5C5 /* Sources */,
-				B30F889719C69BD8001AB5C5 /* Frameworks */,
-				B30F889819C69BD8001AB5C5 /* Resources */,
+				B30F88C819C69D6A001AB5C5 /* Sources */,
+				B30F88C919C69D6A001AB5C5 /* Frameworks */,
+				B30F88CA19C69D6A001AB5C5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +129,46 @@
 			);
 			name = Temperature;
 			productName = Temperature;
-			productReference = B30F889A19C69BD8001AB5C5 /* Temperature.app */;
+			productReference = B30F88CC19C69D6A001AB5C5 /* Temperature.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B30F88B219C69BD8001AB5C5 /* TemperatureTests */ = {
+		B30F88E019C69D6A001AB5C5 /* TemperatureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B30F88C019C69BD8001AB5C5 /* Build configuration list for PBXNativeTarget "TemperatureTests" */;
+			buildConfigurationList = B30F88EE19C69D6B001AB5C5 /* Build configuration list for PBXNativeTarget "TemperatureTests" */;
 			buildPhases = (
-				B30F88AF19C69BD8001AB5C5 /* Sources */,
-				B30F88B019C69BD8001AB5C5 /* Frameworks */,
-				B30F88B119C69BD8001AB5C5 /* Resources */,
+				B30F88DD19C69D6A001AB5C5 /* Sources */,
+				B30F88DE19C69D6A001AB5C5 /* Frameworks */,
+				B30F88DF19C69D6A001AB5C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B30F88B519C69BD8001AB5C5 /* PBXTargetDependency */,
+				B30F88E319C69D6B001AB5C5 /* PBXTargetDependency */,
 			);
 			name = TemperatureTests;
 			productName = TemperatureTests;
-			productReference = B30F88B319C69BD8001AB5C5 /* TemperatureTests.xctest */;
+			productReference = B30F88E119C69D6A001AB5C5 /* TemperatureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B30F889219C69BD8001AB5C5 /* Project object */ = {
+		B30F88C419C69D6A001AB5C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Higepon Taro Minowa";
 				TargetAttributes = {
-					B30F889919C69BD8001AB5C5 = {
+					B30F88CB19C69D6A001AB5C5 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					B30F88B219C69BD8001AB5C5 = {
+					B30F88E019C69D6A001AB5C5 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = B30F889919C69BD8001AB5C5;
+						TestTargetID = B30F88CB19C69D6A001AB5C5;
 					};
 				};
 			};
-			buildConfigurationList = B30F889519C69BD8001AB5C5 /* Build configuration list for PBXProject "Temperature" */;
+			buildConfigurationList = B30F88C719C69D6A001AB5C5 /* Build configuration list for PBXProject "Temperature" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B30F889119C69BD8001AB5C5;
-			productRefGroup = B30F889B19C69BD8001AB5C5 /* Products */;
+			mainGroup = B30F88C319C69D6A001AB5C5;
+			productRefGroup = B30F88CD19C69D6A001AB5C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B30F889919C69BD8001AB5C5 /* Temperature */,
-				B30F88B219C69BD8001AB5C5 /* TemperatureTests */,
+				B30F88CB19C69D6A001AB5C5 /* Temperature */,
+				B30F88E019C69D6A001AB5C5 /* TemperatureTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B30F889819C69BD8001AB5C5 /* Resources */ = {
+		B30F88CA19C69D6A001AB5C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30F88A919C69BD8001AB5C5 /* Main.storyboard in Resources */,
-				B30F88AE19C69BD8001AB5C5 /* LaunchScreen.xib in Resources */,
-				B30F88AB19C69BD8001AB5C5 /* Images.xcassets in Resources */,
+				B30F88D719C69D6A001AB5C5 /* Main.storyboard in Resources */,
+				B30F88DC19C69D6A001AB5C5 /* LaunchScreen.xib in Resources */,
+				B30F88D919C69D6A001AB5C5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30F88B119C69BD8001AB5C5 /* Resources */ = {
+		B30F88DF19C69D6A001AB5C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B30F889619C69BD8001AB5C5 /* Sources */ = {
+		B30F88C819C69D6A001AB5C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30F88A619C69BD8001AB5C5 /* ViewController.m in Sources */,
-				B30F88A319C69BD8001AB5C5 /* AppDelegate.m in Sources */,
-				B30F88A019C69BD8001AB5C5 /* main.m in Sources */,
+				B30F88D419C69D6A001AB5C5 /* ViewController.swift in Sources */,
+				B30F88D219C69D6A001AB5C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B30F88AF19C69BD8001AB5C5 /* Sources */ = {
+		B30F88DD19C69D6A001AB5C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30F88BA19C69BD8001AB5C5 /* TemperatureTests.m in Sources */,
+				B30F88E819C69D6B001AB5C5 /* TemperatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B30F88B519C69BD8001AB5C5 /* PBXTargetDependency */ = {
+		B30F88E319C69D6B001AB5C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B30F889919C69BD8001AB5C5 /* Temperature */;
-			targetProxy = B30F88B419C69BD8001AB5C5 /* PBXContainerItemProxy */;
+			target = B30F88CB19C69D6A001AB5C5 /* Temperature */;
+			targetProxy = B30F88E219C69D6B001AB5C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B30F88A719C69BD8001AB5C5 /* Main.storyboard */ = {
+		B30F88D519C69D6A001AB5C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B30F88A819C69BD8001AB5C5 /* Base */,
+				B30F88D619C69D6A001AB5C5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B30F88AC19C69BD8001AB5C5 /* LaunchScreen.xib */ = {
+		B30F88DA19C69D6A001AB5C5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B30F88AD19C69BD8001AB5C5 /* Base */,
+				B30F88DB19C69D6A001AB5C5 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B30F88BB19C69BD8001AB5C5 /* Debug */ = {
+		B30F88E919C69D6B001AB5C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,11 +293,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B30F88BC19C69BD8001AB5C5 /* Release */ = {
+		B30F88EA19C69D6B001AB5C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +334,7 @@
 			};
 			name = Release;
 		};
-		B30F88BE19C69BD8001AB5C5 /* Debug */ = {
+		B30F88EC19C69D6B001AB5C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -351,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		B30F88BF19C69BD8001AB5C5 /* Release */ = {
+		B30F88ED19C69D6B001AB5C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -361,7 +354,7 @@
 			};
 			name = Release;
 		};
-		B30F88C119C69BD8001AB5C5 /* Debug */ = {
+		B30F88EF19C69D6B001AB5C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		B30F88C219C69BD8001AB5C5 /* Release */ = {
+		B30F88F019C69D6B001AB5C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,32 +391,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B30F889519C69BD8001AB5C5 /* Build configuration list for PBXProject "Temperature" */ = {
+		B30F88C719C69D6A001AB5C5 /* Build configuration list for PBXProject "Temperature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B30F88BB19C69BD8001AB5C5 /* Debug */,
-				B30F88BC19C69BD8001AB5C5 /* Release */,
+				B30F88E919C69D6B001AB5C5 /* Debug */,
+				B30F88EA19C69D6B001AB5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B30F88BD19C69BD8001AB5C5 /* Build configuration list for PBXNativeTarget "Temperature" */ = {
+		B30F88EB19C69D6B001AB5C5 /* Build configuration list for PBXNativeTarget "Temperature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B30F88BE19C69BD8001AB5C5 /* Debug */,
-				B30F88BF19C69BD8001AB5C5 /* Release */,
+				B30F88EC19C69D6B001AB5C5 /* Debug */,
+				B30F88ED19C69D6B001AB5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		B30F88C019C69BD8001AB5C5 /* Build configuration list for PBXNativeTarget "TemperatureTests" */ = {
+		B30F88EE19C69D6B001AB5C5 /* Build configuration list for PBXNativeTarget "TemperatureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B30F88C119C69BD8001AB5C5 /* Debug */,
-				B30F88C219C69BD8001AB5C5 /* Release */,
+				B30F88EF19C69D6B001AB5C5 /* Debug */,
+				B30F88F019C69D6B001AB5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B30F889219C69BD8001AB5C5 /* Project object */;
+	rootObject = B30F88C419C69D6A001AB5C5 /* Project object */;
 }
