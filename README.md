@@ -1,6 +1,6 @@
 Spark Core Examples step by step
 
-[![Daddy is coming home iPhone + Spark Core](http://img.youtube.com/vi/s2ZM7BXr9Kg/0.jpg)](http://www.youtube.com/watch?v=s2ZM7BXr9Kg)
+[![Daddy is coming home iPhone + Spark Core](http://img.youtube.com/vi/cDlI7TF49do/0.jpg)](http://www.youtube.com/watch?v=cDlI7TF49do)
 
 - [1. Hello, World](http://d.hatena.ne.jp/higepon/20140908/1410148835)
 - [2. Debug print](http://d.hatena.ne.jp/higepon/20140908/1410150226)
