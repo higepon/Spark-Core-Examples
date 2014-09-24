@@ -12,4 +12,4 @@ Spark Core Examples step by step
 - [8. Send email when someone turns on light](http://d.hatena.ne.jp/higepon/20140915/1410733266)
 - [9. Temperature iPhone App](http://d.hatena.ne.jp/higepon/20140915/1410784693)
 - [10. Daddy is coming home app for iPhone](http://d.hatena.ne.jp/higepon/20140921/1411252757)
-- [11. Piezo Buzzer(http://d.hatena.ne.jp/higepon/20140925/1411573952)
+- [11. Piezo Buzzer](http://d.hatena.ne.jp/higepon/20140925/1411573952)
