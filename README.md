@@ -14,3 +14,4 @@ Spark Core Examples step by step
 - [10. Daddy is coming home app for iPhone](http://d.hatena.ne.jp/higepon/20140921/1411252757)
 - [11. Piezo Buzzer](http://d.hatena.ne.jp/higepon/20140925/1411573952)
 - [12.Force-Sensitive Resistor](http://d.hatena.ne.jp/higepon/20140927/1411823464)
+- [13. Log temperature in Google Spreadsheet](http://d.hatena.ne.jp/higepon/20141001/1412167511)
